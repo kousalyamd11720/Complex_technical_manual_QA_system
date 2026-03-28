@@ -1,0 +1,6 @@
+For each claim, provide:
+- chapter
+- section
+- printed page label
+- pdf page index
+- confidence score (0 to 1)

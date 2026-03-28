@@ -1,0 +1,20 @@
+[
+  {
+    "id": "q1",
+    "question": "What are the entry criteria for PDR?",
+    "expected_topics": ["PDR", "entry criteria", "technical review"],
+    "expected_sections": ["6.0", "6.8"]
+  },
+  {
+    "id": "q2",
+    "question": "How does risk management feed into technical review decisions?",
+    "expected_topics": ["risk management", "technical review", "cross-reference"],
+    "expected_sections": ["6.6", "6.8"]
+  },
+  {
+    "id": "q3",
+    "question": "Describe the systems engineering Vee model flow.",
+    "expected_topics": ["Vee model", "process flow", "verification"],
+    "expected_sections": ["3.0", "4.0", "6.0"]
+  }
+]

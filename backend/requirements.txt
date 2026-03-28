@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+pydantic-settings
+google-generativeai
+pymupdf4llm
+chromadb
+rank-bm25
+sentence-transformers
+langchain
+python-dotenv
+pytest
+numpy
+pdfplumber
+pytesseract
+Pillow

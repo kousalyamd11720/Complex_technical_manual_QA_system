@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NASA Manual QA</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <section class="panel">
+        <h1>NASA Manual QA</h1>
+        <div class="row">
+          <input id="pdfPath" placeholder="Path to PDF (for ingest)" />
+          <button id="ingestBtn">Ingest</button>
+        </div>
+        <div class="row">
+          <textarea id="question" rows="3" placeholder="Ask a question..."></textarea>
+          <button id="askBtn">Ask</button>
+        </div>
+        <div id="answer" class="answer"></div>
+      </section>
+      <aside class="panel citations">
+        <h2>Citations</h2>
+        <ul id="citationsList"></ul>
+      </aside>
+    </main>
+    <script type="module" src="./js/chat.js"></script>
+  </body>
+  </html>
